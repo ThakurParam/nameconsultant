@@ -1,5 +1,11 @@
 .divtab {
   background-color: #fe4c1c;
+
+  /* padding: ; */
+}
+.divtab001 {
+  background-color: #fe4c1c;
+  width: 70%;
   /* padding: ; */
 }
 
@@ -7,7 +13,12 @@
   color: white;
 }
 .divtab0 {
-  text-align: start;
+  text-align: start !important;
+  /* width: 70%; */
+}
+.divtabs001 {
+  text-align: start !important;
+  width: 70%;
 }
 .para {
   padding-bottom: 20px;
@@ -23,18 +34,33 @@
   justify-content: space-evenly;
 }
 .listtab {
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   padding: 7px;
   font-size: large;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font-weight: 600;
+  /* display: flex; */
+  list-style-type: none;
+  /* justify-content: space-evenly; */
 }
 .listtab1 {
   color: white;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   padding: 7px;
   font-size: large;
   border-radius: 5px;
   background-color: #fe4c1c;
   font-weight: 600;
+  /* display: flex; */
+  list-style-type: none;
+  /* justify-content: space-evenly; */
+}
+.choose {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.imagesize {
+  border-radius: 5px;
+  height: 200px;
+  width: -webkit-fill-available;
 }

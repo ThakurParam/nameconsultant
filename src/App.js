@@ -1,5 +1,6 @@
 import "./App.css";
 import { Blogs } from "./components/Blogs";
+import { Buttons } from "./components/Buttons";
 import { Chart1 } from "./components/Chart1";
 import { Chart2 } from "./components/Chart2";
 // import { Chart3 } from "./components/Chart3";
@@ -7,6 +8,7 @@ import { Chart4 } from "./components/Chart4";
 import { Footer1 } from "./components/Footer1";
 import { Footer2nd } from "./components/Footer2nd";
 import { Navbar } from "./components/Navbar";
+import { Topbutton } from "./components/Topbutton";
 import { Toptab } from "./components/Toptab";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
 
       <Footer1 />
       <Footer2nd />
+      <Topbutton />
+      <Buttons />
     </div>
   );
 }

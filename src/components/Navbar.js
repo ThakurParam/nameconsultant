@@ -6,10 +6,10 @@ export const Navbar = () => {
     <>
       <div className="div">
         <Grid container spacing={2}>
-          <Grid item xs={6}>
-            <img src={img}  className="image22"></img>
+          <Grid item xs={12} md={6} lg={6}>
+            <img src={img} className="image22"></img>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6} lg={6}>
             <Button>Home</Button>
             <Button>About Us</Button>
             <Button>ContactUS</Button>

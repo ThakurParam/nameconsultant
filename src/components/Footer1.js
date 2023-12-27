@@ -10,7 +10,7 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 export const Footer1 = () => {
   return (
     <>
-      <Box sx={{ bgcolor: "#F0F2F5" }}>
+      <Box sx={{ bgcolor: "#F0F2F5", py: "60px" }}>
         <Container maxWidth="lg" sx={{ bgcolor: "white", padding: "20px" }}>
           {/* <ul className="list0">
             <li>
@@ -40,31 +40,78 @@ export const Footer1 = () => {
           </ul> */}
           <Grid container spacing={2}>
             <Grid item lg={2} md={4} xs={12}>
-              <TwitterIcon className="icon" />
-              Twitter
+              <div className="itab">
+                <div>
+                  <TwitterIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  <p className="ptext"> Twitter</p>
+                </div>
+              </div>
             </Grid>
             <Grid item lg={2} md={4} xs={12}>
-              {" "}
-              <FacebookOutlinedIcon />
-              Facebook
+              <div className="itab">
+                <div>
+                  <FacebookOutlinedIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  <p className="ptext"> Facebook</p>
+                </div>{" "}
+              </div>
             </Grid>
             <Grid item lg={2} md={4} xs={12}>
-              {" "}
-              <LinkedCameraOutlinedIcon />
-              Instagram
+              <div className="itab">
+                <div>
+                  <LinkedCameraOutlinedIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  <p className="ptext"> Instagram</p>
+                </div>
+              </div>
             </Grid>
             <Grid item lg={2} md={4} xs={12}>
-              <SmartDisplayOutlinedIcon />
-              Youtube
+              <div className="itab">
+                <div>
+                  <SmartDisplayOutlinedIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  {" "}
+                  <p className="ptext"> Youtube</p>
+                </div>{" "}
+              </div>
             </Grid>
             <Grid item lg={2} md={4} xs={12}>
-              <PinterestIcon />
-              Pinterest
+              <div className="itab">
+                <div>
+                  <PinterestIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  {" "}
+                  <p className="ptext"> Pinterest</p>
+                </div>
+              </div>
             </Grid>
             <Grid item lg={2} md={4} xs={12}>
-              {" "}
-              <SportsEsportsIcon />
-              Discord
+              <div className="itab">
+                <div>
+                  <SportsEsportsIcon
+                    sx={{ bgcolor: "#F0F2F5", p: 1, borderRadius: "50%" }}
+                  />
+                </div>
+                <div>
+                  <p className="ptext"> Discord</p>
+                </div>
+              </div>
             </Grid>
           </Grid>
         </Container>

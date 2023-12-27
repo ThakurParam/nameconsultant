@@ -15,7 +15,10 @@ import img3 from "../image/images.jpg";
 export const Chart2 = () => {
   return (
     <>
-      <Container maxWidth="lg" sx={{ paddingTop: "40px" }}>
+      <Container
+        maxWidth="lg"
+        sx={{ paddingTop: "40px", paddingBottom: "50px" }}
+      >
         {/* <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} /> */}
         <h1>Why Choose Name Change Consultant</h1>
         <Grid container spacing={2} sx={{ paddingTop: "30px" }}>
@@ -142,46 +145,46 @@ export const Chart2 = () => {
             solution for your name change in your legal document
           </p>
           <Grid container spacing={0}>
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image} className="image"></img>
               </div>
-              <p>Select Name</p>
-              <p>Change Consultant</p>
+              <p className="textmy">Select Name</p>
+              <p className="textmy">Change Consultant</p>
             </Grid>
 
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image1} className="image"></img>
               </div>
-              <p>Send Inquiry</p>
+              <p className="textmy">Send Inquiry</p>
             </Grid>
 
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image2} className="image"></img>
               </div>
-              <p>Ask Question About</p>
-              <p>Name Change</p>
+              <p className="textmy">Ask Question About</p>
+              <p className="textmy">Name Change</p>
             </Grid>
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image3} className="image"></img>
               </div>
-              <p>Send Document For</p>
-              <p>Name correction</p>
+              <p className="textmy">Send Document For</p>
+              <p className="textmy">Name correction</p>
             </Grid>
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image4} className="image"></img>
               </div>
-              <p>Pay Online</p>
+              <p className="textmy">Pay Online</p>
             </Grid>
-            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+            <Grid item xs={12} lg={2} sx={{ padding: "20px" }}>
               <div className="divimage">
                 <img src={image5} className="image"></img>
               </div>
-              <p>Work Start</p>
+              <p className="textmy">Work Start</p>
             </Grid>
           </Grid>
           {/* <div className="imagediv">

@@ -97,9 +97,17 @@
 .foot {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid grey; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: end;
 }
 .foot2 {
   padding-top: 20px;
@@ -117,4 +125,63 @@
 .icon {
   border-radius: 50%;
   background-color: grey;
+}
+.to-btn {
+  font-size: 2.4rem;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  background-color: rgb(68, 68, 161);
+  /* box-shadow: ; */
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  z-index: index 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* {
+  animation
+ } */
+@keyframes gotobtn {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}
+.buttonimage {
+  height: 5rem;
+  width: 5re;
+  bottom: 300px;
+  border-radius: 50%;
+  /* left: 2px; */
+  right: 0px;
+  position: fixed;
+}
+.buttonimage:hover {
+  width: 100px;
+}
+.buttonimage1 {
+  height: 9rem;
+  width: 9rem;
+
+  right: 10px;
+  position: fixed;
+}
+.itab {
+  display: flex;
+  flex-direction: row;
+}
+.ptext {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.pptext:hover {
+  color: #ff0505;
 }
