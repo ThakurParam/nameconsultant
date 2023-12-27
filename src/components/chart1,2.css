@@ -1,0 +1,25 @@
+.divtab {
+  background-color: #fe4c1c;
+  /* padding: ; */
+}
+
+.textstyle {
+  color: white;
+}
+.divtab0 {
+  text-align: start;
+}
+/* chart2 css start here///////////////////////////////////////////////////////////////////////////////// */
+.images {
+  width: -webkit-fill-available;
+
+  height: 170px;
+}
+.divtab00 {
+  background-color: #f0f2f5;
+  padding-top: 15px;
+  border-radius: 7px;
+}
+.divtab000 {
+  padding-bottom: 15px;
+}

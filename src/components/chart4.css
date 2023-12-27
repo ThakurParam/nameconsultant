@@ -1,0 +1,18 @@
+.divtab {
+  background-color: #fe4c1c;
+  /* padding: ; */
+}
+
+.textstyle {
+  color: white;
+}
+.divtab0 {
+  text-align: start;
+}
+.divtab1 {
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
