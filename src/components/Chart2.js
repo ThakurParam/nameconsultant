@@ -15,11 +15,11 @@ import img3 from "../image/images.jpg";
 export const Chart2 = () => {
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ paddingTop: "40px" }}>
         {/* <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} /> */}
         <h1>Why Choose Name Change Consultant</h1>
-        <Grid container spacing={2}>
-          <Grid item xs={3}>
+        <Grid container spacing={2} sx={{ paddingTop: "30px" }}>
+          <Grid item xs={12} md={3} lg={3}>
             <div className="divtab00">
               <div className="divtab000">
                 <p>satisfied</p>
@@ -30,7 +30,7 @@ export const Chart2 = () => {
               </div>
             </div>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3} lg={3}>
             <div className="divtab00">
               <div className="divtab000">
                 <p>satisfied</p>
@@ -41,7 +41,7 @@ export const Chart2 = () => {
               </div>
             </div>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3} lg={3}>
             <div className="divtab00">
               <div className="divtab000">
                 <p>satisfied</p>
@@ -52,7 +52,7 @@ export const Chart2 = () => {
               </div>
             </div>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3} lg={3}>
             <div className="divtab00">
               <div className="divtab000">
                 <p>satisfied</p>
@@ -65,7 +65,7 @@ export const Chart2 = () => {
           </Grid>
         </Grid>
         <div className="divtab0">
-          <p>
+          <p className="text000">
             Everybody is not educated or high-tech in life. There are many
             people who require experts to change their names because they are
             not educated enough or don’t have time. Below are the reasons that
@@ -102,13 +102,33 @@ export const Chart2 = () => {
             services, but these will guide you according to your needs.
           </p>
           <ul>
-            <li>Marriage (Want Husband Sir Name)</li>
-            <li>Re Marriage (New life with New Name)</li>
-            <li> Astrology Reasons (Guidance by pandit ji)</li>
-            <li>Religion change (Due to love Marriage)</li>
-            <li>Name wrongly in Records (Due to parents mistake)</li>
-            <li>Spelling Errors (Typing mistake by Gov)</li>
-            <li>Dissatisfaction with names (Not happy wiyh name)</li>
+            <li className="li">
+              <span className="span">Marriage </span> (Want Husband Sir Name)
+            </li>
+            <li className="li">
+              <span className="span">Re Marriage </span> (New life with New
+              Name)
+            </li>
+            <li className="li">
+              <span className="span"> Astrology Reasons </span> (Guidance by
+              pandit ji)
+            </li>
+            <li className="li">
+              <span className="span">Religion change </span> (Due to love
+              Marriage)
+            </li>
+            <li className="li">
+              <span className="span">Name wrongly in </span> Records (Due to
+              parents mistake)
+            </li>
+            <li className="li">
+              <span className="span">Spelling Errors </span> (Typing mistake by
+              Gov)
+            </li>
+            <li className="li">
+              <span className="span">Dissatisfaction </span> with names (Not
+              happy wiyh name)
+            </li>
           </ul>
         </div>
       </Container>
@@ -121,60 +141,50 @@ export const Chart2 = () => {
             We provide best name change consultant which provide reliable
             solution for your name change in your legal document
           </p>
-          {/* <Grid container spacing={1}>
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image} className="image"></img>
-             
+          <Grid container spacing={0}>
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image} className="image"></img>
+              </div>
+              <p>Select Name</p>
+              <p>Change Consultant</p>
             </Grid>
-            
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image1} className="image"></img>
+
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image1} className="image"></img>
+              </div>
               <p>Send Inquiry</p>
             </Grid>
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image2} className="image"></img>
+
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image2} className="image"></img>
+              </div>
               <p>Ask Question About</p>
               <p>Name Change</p>
             </Grid>
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image3} className="image"></img>
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image3} className="image"></img>
+              </div>
               <p>Send Document For</p>
               <p>Name correction</p>
             </Grid>
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image4} className="image"></img>
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image4} className="image"></img>
+              </div>
               <p>Pay Online</p>
             </Grid>
-            <Grid
-              item
-              xs={2}
-              sx={{ padding: "10px", backgroundColor: "white" }}
-            >
-              <img src={image5} className="image"></img>
+            <Grid item xs={12} lg={2} sx={{ padding: "10px" }}>
+              <div className="divimage">
+                <img src={image5} className="image"></img>
+              </div>
               <p>Work Start</p>
             </Grid>
-          </Grid> */}
-          <div className="imagediv">
+          </Grid>
+          {/* <div className="imagediv">
             <div>
               <div className="divimage">
                 <img src={image} className="image"></img>
@@ -215,7 +225,7 @@ export const Chart2 = () => {
               </div>
               <p>Work Start</p>
             </div>
-          </div>
+          </div> */}
         </Container>
       </Box>
     </>

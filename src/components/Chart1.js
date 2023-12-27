@@ -6,13 +6,13 @@ import img2 from "../image/banner-03.png";
 export const Chart1 = () => {
   return (
     <>
-      <Container maxWidth="lg">
+      <Container>
         {/* <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} /> */}
         <div className="divtab">
           <h1 className="textstyle">Best Name Change Consultant in India</h1>
         </div>
         <div className="divtab0">
-          <p>
+          <p className="textx">
             Best Name Change Consultant - In a world where people are becoming
             modern day by day and are changing everything about themselves,
             including their name, because they want to be a part of the modern
@@ -27,7 +27,7 @@ export const Chart1 = () => {
             forward. That is why such services are started so that people don’t
             have to undergo any pressure.
           </p>
-          <p>
+          <p className="textx0">
             The services of Best Name Change Consultants in India have begun,
             where you can directly change your names through our online
             services. For people who do not know about the name change
@@ -40,44 +40,57 @@ export const Chart1 = () => {
           <h1 className="textstyle">Reason For Name Change in India</h1>
         </div>
         <div className="divtab0">
-          <li>
+          <p>
             In India, people can change their names on a given condition that
             their names should not cause distress or harm to anybody. There are
             a few reasons why a name-changing consultancy is required, and the
             reasons have been mentioned below:-
+          </p>
+          <li>
+            <span className="span">Divorce : </span> Another major reason for
+            name changing is due to divorce between the couples. Changing names
+            due to divorce is a kind of personal choice, and hence, it requires
+            a lengthy procedure. Therefore, one must go for the best name change
+            consultant services.
           </li>
           <li>
-            Divorce: Another major reason for name changing is due to divorce
-            between the couples. Changing names due to divorce is a kind of
-            personal choice, and hence, it requires a lengthy procedure.
-            Therefore, one must go for the best name change consultant services.
+            <span className="span"> Religious : </span> India is full of
+            diversity, where there are people with various religions. Here,
+            people sometimes convert their religions, due to which name also
+            should be changed. In such cases, the best name-changing consultant
+            should be preferred.
           </li>
           <li>
-            Religious: India is full of diversity, where there are people with
-            various religions. Here, people sometimes convert their religions,
-            due to which name also should be changed. In such cases, the best
-            name-changing consultant should be preferred.
+            <span className="span">Gender : </span> It was discovered that there
+            are 72 genders worldwide. When people are likely to transform into
+            another gender, they change their names as well, and hence, they
+            look for professional name-changing consultancy.
           </li>
           <li>
-            Gender: It was discovered that there are 72 genders worldwide. When
-            people are likely to transform into another gender, they change
-            their names as well, and hence, they look for professional
-            name-changing consultancy.
+            <span className="span">Politics : </span> People who follow
+            different political parties are willing to change their names
+            according to the party. So they should do it by hiring the best
+            name-changing consultancy services.
           </li>
           <li>
-            Politics: People who follow different political parties are willing
-            to change their names according to the party. So they should do it
-            by hiring the best name-changing consultancy services.
-          </li>
-          <li>
-            Marriage: Most women in India, after being married, seem to change
-            their names or surnames according to their husbands. Couples might
-            also hyphen their names.
+            <span className="span">Marriage : </span> Most women in India, after
+            being married, seem to change their names or surnames according to
+            their husbands. Couples might also hyphen their names.
           </li>
         </div>
-        <div>
-          <img src={img2}></img>
-        </div>
+        <Box
+          sx={{
+            width: {
+              xs: "100%",
+              lg: "100%",
+              md: "100%",
+            },
+          }}
+        >
+          <div className="imagetab">
+            <img  className="imaages" src={img2}></img>
+          </div>
+        </Box>
         <div className="divtab0">
           <h2>Eligibility For Name Changes</h2>
 

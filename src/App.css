@@ -61,6 +61,11 @@
   /* width: 25px; */
   height: 30px;
 }
+.iframe {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  border-radius: 10px;
+}
 
 /* images csss from chart2 */
 .image {

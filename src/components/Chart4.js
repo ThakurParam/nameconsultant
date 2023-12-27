@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import React from "react";
 import "./chart4.css";
 
@@ -12,36 +12,36 @@ export const Chart4 = () => {
           </h1>
         </div>
         <div className="divtab0">
-          <p>
+          <p className="para">
             Many people don’t know what steps that should be followed to hire
             agents of name change consultancy, so below you will get clarity on
             how to hire such services.
           </p>
 
-          <li>
+          <li className="listx">
             Firstly, you have to select the best name change consultancy
             services that have good ratings and comments and know what they are
             doing.
           </li>
-          <li>
+          <li className="listx">
             After hiring the website, an agent must be appointed to you, so now
             you have to check the agent if they are expert or not by checking
             their previous client’s performance.
           </li>
-          <li>
+          <li className="listx">
             After being perfectly clear, ask questions about the name change
             process and how the agents will start the procedure.
           </li>
-          <li>
+          <li className="listx">
             When the agent clears all your doubts and tells you about the
             documentation, then you have to send a copy of your documents to
             them in the proper format.
           </li>
-          <li>
+          <li className="listx">
             After that, you have to pay the agent, and after receiving the
             payment, your agent will start your name change procedure.
           </li>
-          <p>
+          <p className="listx">
             Anyone who has doubts about the name change consultants should read
             the above blog to ensure that there are no fraudulent activities
             pursued by the agents and the consultancy websites.
@@ -52,9 +52,17 @@ export const Chart4 = () => {
         </div>
         <div className="divtab1">
           <ul className="list">
-            <li>Name Change Procedures in India </li>
-            <li>Why Do we Name Change</li>
-            <li>Document Required</li>
+            <Grid Container spacing={2}>
+              <Grid item xs={12} md={4} lg={4}>
+                <li className="listtab1">Name Change Procedures in India </li>
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <li className="listtab">Why Do we Name Change</li>
+              </Grid>
+              <Grid item xs={12} md={4} lg={4}>
+                <li className="listtab">Document Required</li>
+              </Grid>
+            </Grid>
           </ul>
         </div>
       </Container>

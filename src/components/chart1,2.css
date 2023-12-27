@@ -1,5 +1,7 @@
 .divtab {
+  margin-top: 50px;
   background-color: #fe4c1c;
+
   /* padding: ; */
 }
 
@@ -8,6 +10,22 @@
 }
 .divtab0 {
   text-align: start;
+}
+.textx {
+  font-size: large;
+}
+.textx0 {
+  margin-top: 30px;
+}
+.span {
+  font-weight: 500;
+}
+.imagetab {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.imaages {
+  width: -webkit-fill-available;
 }
 /* chart2 css start here///////////////////////////////////////////////////////////////////////////////// */
 .images {
@@ -22,4 +40,14 @@
 }
 .divtab000 {
   padding-bottom: 15px;
+}
+.text000 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.li {
+  padding-top: 5px;
+}
+.divimage {
+  background-color: white;
 }

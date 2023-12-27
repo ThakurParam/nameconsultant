@@ -6,6 +6,8 @@ export const Footer2nd = () => {
     <>
       <Container maxWidth="lg">
         <div>
+          <Grid container spacing={2}></Grid>
+          <Grid item xs={12}></Grid>
           <div className="foot">
             <div>info@namechange.in</div>
             <div>+91-9540005026</div>
@@ -14,7 +16,9 @@ export const Footer2nd = () => {
             <Grid container spacing={2}>
               <Grid
                 item
-                xs={8}
+                xs={12}
+                md={8}
+                lg={8}
                 sx={{ display: "flex", justifyContent: "space-between" }}
               >
                 <div>
@@ -25,7 +29,7 @@ export const Footer2nd = () => {
                 <p>Privacy Policy</p>
                 <p>Blogs</p>
               </Grid>
-              <Grid item xs={4} sx={{ textAlign: "end" }}>
+              <Grid item xs={12} md={4} lg={4} sx={{ textAlign: "end" }}>
                 All Rights Reserved © 2023
               </Grid>
             </Grid>

@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
@@ -12,7 +12,7 @@ export const Footer1 = () => {
     <>
       <Box sx={{ bgcolor: "#F0F2F5" }}>
         <Container maxWidth="lg" sx={{ bgcolor: "white", padding: "20px" }}>
-          <ul className="list0">
+          {/* <ul className="list0">
             <li>
               <TwitterIcon className="icon" />
               Twitter
@@ -37,7 +37,36 @@ export const Footer1 = () => {
               <SportsEsportsIcon />
               Discord
             </li>
-          </ul>
+          </ul> */}
+          <Grid container spacing={2}>
+            <Grid item lg={2} md={4} xs={12}>
+              <TwitterIcon className="icon" />
+              Twitter
+            </Grid>
+            <Grid item lg={2} md={4} xs={12}>
+              {" "}
+              <FacebookOutlinedIcon />
+              Facebook
+            </Grid>
+            <Grid item lg={2} md={4} xs={12}>
+              {" "}
+              <LinkedCameraOutlinedIcon />
+              Instagram
+            </Grid>
+            <Grid item lg={2} md={4} xs={12}>
+              <SmartDisplayOutlinedIcon />
+              Youtube
+            </Grid>
+            <Grid item lg={2} md={4} xs={12}>
+              <PinterestIcon />
+              Pinterest
+            </Grid>
+            <Grid item lg={2} md={4} xs={12}>
+              {" "}
+              <SportsEsportsIcon />
+              Discord
+            </Grid>
+          </Grid>
         </Container>
       </Box>
     </>
